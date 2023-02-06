@@ -2,8 +2,8 @@
 // Checking string character without regExp
 // ------------------------------------------
 // How to check ?
-// Ex       : const input = ['ababab', 'aba']
-// Output   : 2
+// Ex       : const input = 'MasyaAllah
+// Output   : { a: 3, A: 1, h: 1, l: 2, M: 1, s: 1, y: 1 }
 
 const input = 'MasyaAllah';
 
