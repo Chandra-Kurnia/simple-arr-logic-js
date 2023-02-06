@@ -1,6 +1,6 @@
 const arr = [12,9,30,"A","M",99,82,"J","N","B"]
 
-const numbers = arr.filter(element => !isNaN(element)).sort();
+const numbers = arr.filter(element => !isNaN(element)).sort((a, b) => a - b);
 const strings = arr.filter(element => isNaN(element)).sort();
 
 const sortedArr = [...strings, ...numbers]
